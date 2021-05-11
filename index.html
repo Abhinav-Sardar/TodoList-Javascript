@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <center class="intro">
+            <h1>Task Manager</h1>
+        </center>
+        <center class="img">
+            <img src="./Notes.svg" alt="">
+        </center>
+    </center>
+    <!-- <ul>
+        <h1>
+            Advantages
+        </h1>
+        <li>
+            Keep track of your work.
+        </li>
+        <li>
+            Access from any device 
+        </li>
+        <li>
+            Add or remove task
+        </li>
+    </ul> -->
+    <div class="left">
+        <h2 id = 'name'></h2>
+        <hr color="black">
+        <h1>Add task</h1>
+        <br>
+        <form id = "form" autocomplete="off">
+            <input type="text" id = 'inp'><br><br>
+            <button type="submit" class="btn" id = "addTodo">
+                Add Task
+            </button>
+            <button class="btn" id = "clear" type = "button">
+                Clear
+            </button>
+        </form>
+        <br>
+        <h1>Tasks</h1>
+        <table>
+            <tr>
+                <th class="sr">
+                    SrNo.
+                </th>
+                <th class="task">
+                    Task
+                </th>
+                <th class="complete">
+                    Completed
+                </th>
+            </tr>
+            <tbody id="tbody">
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Buy grocceries
+                    </td>
+                    <td class="table">
+                        <div class="i">
+                            <i class="far fa-trash-alt"></i>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br><br><br><br><br>
+    <center>
+        Didnt Understand ?<br>
+        <a href="./demo.html">Show me how to use this app</a>
+        <br><br>
+    </center>
+</body>
+<script src='./scripts.js'></script>
+</html>
+<!--
+
+-->
